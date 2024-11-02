@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Javascript Arrays</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="join"></p>
+    <p id="pop"></p>
+    <p id="pop1"></p>
+    <p id="pop2"></p>
+    <script>
+      var codingal = ["Indradip", "Poops", "Pink", "Shit"];
+      document.getElementById("demo").innerHTML = codingal[0];
+      document.getElementById("demo2").innerHTML = codingal[1];
+      document.getElementById("demo3").innerHTML = codingal[2];
+      document.getElementById("demo4").innerHTML = codingal[3];
+      document.getElementById("join").innerHTML = codingal.join(" * ");
+      codingal.pop();
+      document.getElementById("pop1").innerHTML = codingal;
+      codingal.pop();
+      document.getElementById("pop2").innerHTML = codingal;
+    </script>
+  </body>
+</html>
